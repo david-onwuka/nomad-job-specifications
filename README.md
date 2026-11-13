@@ -55,10 +55,10 @@ nomad-job-specifications/
 ├── nginx.nomad
 ├── README.md
 └── evidence/
-    ├── job-validation.txt
     ├── job-status.txt
-    ├── allocation-status.txt
-    └── http-verification.txt
+    ├── http-verification.txt
+    ├── nomad-job-status.png
+    └── nginx-http-verification.png
 ```
 
 ## Understanding the Nomad Job Specification
