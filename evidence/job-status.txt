@@ -1,0 +1,31 @@
+ID            = nginx-web
+Name          = nginx-web
+Submit Date   = 2026-11-13T12:04:34+01:00
+Type          = service
+Priority      = 50
+Datacenters   = dc1
+Namespace     = default
+Node Pool     = default
+Status        = running
+Periodic      = false
+Parameterized = false
+
+Summary
+Task Group  Queued  Starting  Running  Failed  Complete  Lost  Unknown
+web         0       0         1        0       0         0     0
+
+Latest Deployment
+ID          = 9b26de2f
+Status      = failed
+Description = Failed due to progress deadline
+
+Deployed
+Task Group  Desired  Placed  Healthy  Unhealthy  Progress Deadline
+web         1        1       0        1          2026-11-13T12:14:34+01:00
+
+Allocations
+ID        Node ID   Task Group  Version  Desired  Status   Created     Modified
+2db6b200  b99b9604  web         0        run      running  26m15s ago  20m29s ago
+
+
+==> View job details and metrics in the Web UI: http://127.0.0.1:4646/ui/jobs/nginx-web@default
